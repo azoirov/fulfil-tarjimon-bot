@@ -1,0 +1,21 @@
+{
+    "name": "translator_bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@vitalets/google-translate-api": "^9.1.0",
+        "dotenv": "^16.0.3",
+        "node-telegram-bot-api": "^0.61.0"
+    },
+    "devDependencies": {
+        "@types/node-telegram-bot-api": "^0.61.6",
+        "tsconfig-paths": "^4.2.0"
+    }
+}
